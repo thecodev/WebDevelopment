@@ -1,0 +1,41 @@
+.player{
+  /* margin-top: 10px ; */
+  background:#ff3014;
+  border-radius: 10px;
+}
+.comp{
+  /* margin: 10px ; */
+  background:#130852;
+  /* color:white; */
+  border-radius: 20px;
+}
+
+
+.choices{
+  text-align:center;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.choice{
+  display:block;
+  border : 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 10px; 
+}
+.choice:hover{
+  background:#130852;
+  color:white;
+  cursor: pointer;
+}
+.lable{
+  background:#130852;
+  color:white;
+  cursor: pointer;
+}
+table {
+  height: 400px;
+  background:#fff;
+}
