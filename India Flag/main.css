@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+ul li{
+    widows: 100vw;;
+    height: 33.33vh;
+
+}
+#white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+#orange,#white,#green {width: 100%;height: 100%;}
+#orange{
+    background-color: #ff9933;
+}
+
+#green{background-color: #138808;}
+.ashoka {
+width: 120px;
+height: 120px;
+position: absolute;
+
+background: #0000ff;
+border-radius: 50%;
+-webkit-border-radius: 50%;
+-moz-border-radius: 50%;
+background: url(Ashoka_Chakra.svg.png);
+background-size: cover;
+animation: 5s rotate infinite linear;
+-webkit-animation: 5s rotate infinite linear;
+-moz-animation: 5s rotate infinite linear;
+
+}
+
+@keyframes rotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+
+}
+
+@-webkit-keyframes{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
